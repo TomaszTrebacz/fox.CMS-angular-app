@@ -23,12 +23,12 @@ import { User } from '../../models';
   providedIn: 'root',
 })
 export class AuthService {
-  private userSubject: BehaviorSubject<any>;
-  public user: Observable<any>;
+  private userSubject: BehaviorSubject<User>;
+  public user: Observable<User>;
 
   @AccessToken() private accessToken: string;
   @RefreshToken() private refreshToken: string;
-  @UserStorage() private userStorage: string;
+  @UserStorage() private userStorage: User;
 
   constructor(
     private loginGQL: LoginGQL,
