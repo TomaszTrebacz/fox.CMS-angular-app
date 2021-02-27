@@ -20,6 +20,5 @@ export class BlogComponent implements OnInit {
 
   ngOnInit(): void {
     this.postsService.findAll().then((posts) => (this.posts = posts));
-    this.categories = this.categoriesService.findAll();
   }
 }

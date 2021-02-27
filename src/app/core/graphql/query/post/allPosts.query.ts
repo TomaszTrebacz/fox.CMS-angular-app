@@ -19,6 +19,9 @@ export class AllPostsGQL extends Query<PostsResponseI> {
         user {
           ...FullName
         }
+        category {
+          name
+        }
       }
     }
 
