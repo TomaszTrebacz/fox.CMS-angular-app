@@ -1,27 +1,37 @@
-# AngularApp
+<p align="center">
+  <img src="https://camo.githubusercontent.com/ca7da276be48d42b3897c4c788c61c654bd19e2d6dfadb874e69526cfaed0dc5/68747470733a2f2f692e6962622e636f2f317262356b394e2f6170692d676174657761792e706e67" />
+  </a>
+   <h1 align="center">ANGULAR-APP | part of <a href="https://github.com/TomaszTrebacz/fox.CMS">fox.CMS</a> app</h1>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+## Description
 
-## Development server
+Angular-app enabling user interacting with backend api.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+1. Create .env file following the example (example.env) in the repository.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```ts
+AES_KEY=
+BACKEND_URL=
 
-## Build
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
 
-## Running unit tests
+2. Install dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install
+```
 
-## Running end-to-end tests
+3. Run the app:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```ts
+ng install
+```
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. Navigate to `http://localhost:4200/`
