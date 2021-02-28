@@ -6,7 +6,7 @@
 
 ## Description
 
-Angular-app enabling user interacting with backend api.
+Angular-app is responsible for interacting user with backend api.
 
 ## Installation
 
